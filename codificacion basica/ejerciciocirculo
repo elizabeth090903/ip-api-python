@@ -1,0 +1,26 @@
+
+class Circulo:
+    def __init__(self, radio):
+        self.radio = radio
+        self.circunferencia = 0
+
+    def calcularCircunferencia(self):
+        self.circunferencia = 2 * 3.1416 * self.radio
+
+    def mostrarCircunferencia(self):
+        print("El total de la circunferencia", self.radio, "es:", self.circunferencia)
+
+
+circulo1 = Circulo(1)
+circulo1.calcularCircunferencia()
+circulo1.mostrarCircunferencia()
+
+circulo2 = Circulo(2)
+circulo2.calcularCircunferencia()
+circulo2.mostrarCircunferencia()
+
+circulo3 = Circulo(100)
+circulo3.calcularCircunferencia()
+circulo3.mostrarCircunferencia()
+
+
